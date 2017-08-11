@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Lab-Intent-FileProvider</string>
+    <string name="app_name">Capture image</string>
+    <string name="goto_second_fragment">Goto Second Fragment</string>
+    <string name="lbl_select_photo">Select Photo</string>
+
+    <string-array name="array_select_photo">
+        <item>Capture Image</item>
+        <item>Gallery</item>
+    </string-array>
 </resources>

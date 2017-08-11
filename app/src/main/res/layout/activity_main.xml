@@ -8,18 +8,9 @@
     android:padding="16dp"
     tools:context="com.inthecheesefactory.lab.intent_fileprovider.MainActivity">
 
-    <Button
-        android:id="@+id/btnTakePhoto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Take a Photo" />
-
-    <ImageView
-        android:id="@+id/ivPreview"
+    <FrameLayout
+        android:id="@+id/frame_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:adjustViewBounds="true" />
+        android:layout_height="match_parent"></FrameLayout>
 
 </LinearLayout>
